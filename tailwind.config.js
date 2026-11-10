@@ -1,0 +1,81 @@
+/** @type {import('tailwindcss').Config} */
+// Theme taken from the Stitch export ("Spider-Man palette").
+export default {
+  content: ["./index.html", "./src/**/*.{ts,tsx}"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "venom-trace": "#141516",
+        "venom-deep": "#0d0e10",
+        "queens-crimson": "#e6453c",
+        "crimson-dark": "#d02d24",
+        "responsibility-blue": "#3371bb",
+        "blue-glow": "#3b82f6",
+        "alley-brick": "#75403c",
+        "multiverse-grey": "#2c2e32",
+        "multiverse-dark": "#1f2023",
+        "webline-white": "#f5f4f0",
+        surface: "#141516",
+        "on-surface": "#f5f4f0",
+        "on-surface-variant": "#b1b3b8",
+      },
+      borderRadius: {
+        DEFAULT: "0.25rem",
+        lg: "0.5rem",
+        xl: "0.75rem",
+        "2xl": "1rem",
+        full: "9999px",
+      },
+      fontFamily: {
+        headline: ["Space Grotesk", "sans-serif"],
+        "headline-md": ["Space Grotesk", "sans-serif"],
+        "headline-sm": ["Space Grotesk", "sans-serif"],
+        "label-lg": ["Space Grotesk", "sans-serif"],
+        "label-md": ["Space Grotesk", "sans-serif"],
+        "label-sm": ["Space Grotesk", "sans-serif"],
+        "label-caps": ["Space Grotesk", "sans-serif"],
+        "body-lg": ["Plus Jakarta Sans", "sans-serif"],
+        "body-md": ["Plus Jakarta Sans", "sans-serif"],
+        "body-sm": ["Plus Jakarta Sans", "sans-serif"],
+      },
+      fontSize: {
+        "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "600" }],
+        "label-caps": ["11px", { lineHeight: "14px", letterSpacing: "0.1em", fontWeight: "700" }],
+        "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.06em", fontWeight: "600" }],
+        "label-sm": ["11px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "500" }],
+        "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.04em", fontWeight: "600" }],
+        "body-md": ["15px", { lineHeight: "24px", fontWeight: "400" }],
+        "body-sm": ["13px", { lineHeight: "20px", fontWeight: "400" }],
+        "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+      },
+      spacing: {
+        "space-xs": "0.25rem",
+        "space-sm": "0.5rem",
+        "space-md": "1rem",
+        "space-lg": "1.5rem",
+        "space-xl": "2.25rem",
+        gutter: "1.5rem",
+        "gutter-compact": "1rem",
+        margin: "2rem",
+        "margin-expanded": "3rem",
+      },
+      keyframes: {
+        "aura-float": {
+          "0%, 100%": { transform: "translate(0px, 0px) scale(1)" },
+          "50%": { transform: "translate(30px, -25px) scale(1.08)" },
+        },
+        "aura-float-reverse": {
+          "0%, 100%": { transform: "translate(0px, 0px) scale(1)" },
+          "50%": { transform: "translate(-35px, 30px) scale(1.1)" },
+        },
+      },
+      animation: {
+        "aura-1": "aura-float 20s ease-in-out infinite",
+        "aura-2": "aura-float-reverse 24s ease-in-out infinite",
+      },
+    },
+  },
+  plugins: [],
+};

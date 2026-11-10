@@ -1,0 +1,10 @@
+node_modules/
+dist/
+library.db
+library.db-journal
+library.db-wal
+library.db-shm
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body { margin: 0; padding: 0; background: #141516; }
+  body { overscroll-behavior: none; }
+  ::-webkit-scrollbar { display: none; }
+  input, select, textarea { font-family: inherit; }
+}
