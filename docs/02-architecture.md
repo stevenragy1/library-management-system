@@ -118,9 +118,10 @@ library-management/
 │   ├── api.ts               API client and shared types
 │   ├── index.css            Tailwind directives and base styles
 │   └── components/
-│       ├── BooksPage.tsx        Book management and search
-│       ├── CirculationPage.tsx  Issue, return, members
-│       └── ReportsPage.tsx      Reports
+│       ├── BooksPage.tsx                Book management and search
+│       ├── IssuePage.tsx                Issue a book
+│       ├── MembersTransactionsPage.tsx  Members list, register, transactions and return
+│       └── ReportsPage.tsx              Reports
 ├── index.html               Vite entry point (the only HTML file; it only loads the React app)
 ├── package.json
 ├── tsconfig.json

@@ -18,7 +18,7 @@ A Library Management System that lets staff manage books, issue and return them 
 | Step | Deliverable | Where it lives |
 |---|---|---|
 | 1. Book management modules | Book CRUD UI and API | `src/components/BooksPage.tsx`, `server/index.ts` |
-| 2. Issue and return | Circulation rules and UI | `server/db.ts` (`issueBook`, `returnBook`), `CirculationPage.tsx` |
+| 2. Issue and return | Circulation rules and UI | `server/db.ts` (`issueBook`, `returnBook`), `src/components/IssuePage.tsx`, `src/components/MembersTransactionsPage.tsx` |
 | 3. Store records in a database | SQLite schema with constraints and indexes | `server/db.ts` (`openDatabase`) |
 | 4. Generate reports | Report queries and print view | `LibraryService.reports()`, `ReportsPage.tsx` |
 | 5. Validate system operations | Automated test suite (14 tests) | `server/tests/library.test.ts` |

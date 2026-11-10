@@ -33,5 +33,4 @@ Screenshots of the running system, for the project report and for checking the U
 ## Adding them to the docs
 
 When the images are in `docs/screenshots/`, you can either:
-- Send them to me, and I'll link each one into the matching section of `docs/02-architecture.md` and the test cases in `docs/03-test-cases.md`, or
-- Insert them yourself in Markdown with `![Books page](screenshots/03-books-catalogue.png)`.
+- Insert them yourself in Markdown with `![Books page](screenshots/03-books-catalogue.png)` into the matching section of `docs/02-architecture.md` or in `docs/03-test-cases.md`.

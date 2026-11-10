@@ -23,3 +23,5 @@ Open http://localhost:5173.
 ## Documentation
 - [Planning](docs/01-planning.md)
 - [Architecture](docs/02-architecture.md)
+- [Test Cases](docs/03-test-cases.md)
+- [Screenshots](docs/04-screenshots.md)
